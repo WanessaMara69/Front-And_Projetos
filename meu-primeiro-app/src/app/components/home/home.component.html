@@ -1,0 +1,16 @@
+
+<button (click)="submit()">clique</button>
+
+@if (mostrarTitulo) {
+    <h1>Meu Titulo</h1>
+} @else if (name == "Wanessa") {
+    <h1>Titulo</h1>
+} @else {
+    <h1>Não deu verdadeiro</h1>
+}
+
+@for (item of listaItens; track item) {
+    <p>{{item}}</p>
+}
+
+<h1> {{deFora}}</h1>
